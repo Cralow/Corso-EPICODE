@@ -1,0 +1,16 @@
+Attributi:          Stati
+
+Forza(1);         "attacco basso-medio-alto"
+Difesa(2);        "Parata" "scale del danno subito"
+Stato(3);          "Entra-esce dal combattimento" "muore"
+Mana(4);	"abbastanza mana" "mana non sufficente"
+Stamina(5);          "possibilità di Fuga" "scale della forza giocatore"
+
+
+Actions:
+
+1) Forza: "se forza + scale di danno per attacco basso-medio-alto > difesa bersaglio allora riduci la vita bersaglio"; 
+2) Difesa: "Difendi HP";
+3) Stato: "Vivo-morto-Combatte-Riposa" "ferma il gioco se il giocatore !vivo" "blocca il giocatore in combattimento finche la vita bersaglio o quella giocatore scendono o sono pari a zero";
+4) Mana: "Se superiore o uguale alla somma richiesta dalle spell consente l'azione incantesimi senno consente sonno"
+5) Stamina: "se la tua stamina è superiore a quella bersaglio puoi fuggire dal combattimento" "la stamina attuale modifica il danno del giocatore"
