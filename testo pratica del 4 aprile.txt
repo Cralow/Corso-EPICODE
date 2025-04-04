@@ -1,0 +1,5 @@
+Gioco padre: Salta Cavallo
+
+gioco con nuove meccaniche, ai giocatori viene assegnata una carta aggiuntiva nascosta che possono decidere di girare invece della regolare solita carta nota.
+
+Meccanica di fortuna aggiuntiva; il gioco già possiede elementi di fortuna completamente caratterizzanti, ne aggiungiamo una per allontanare la sensazione di totale balia della fortuna dal giocatore
